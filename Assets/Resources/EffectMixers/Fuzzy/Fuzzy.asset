@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf8b0aae8a20d840b685200448eec9e, type: 3}
+  m_Name: Fuzzy
+  m_EditorClassIdentifier: 
+  Name: Fuzzy
+  Snapshots:
+  - Min
+  - FalloffLow
+  - Target
+  - FalloffHigh
+  - Max
+  SnapshotPercents:
+  - 0
+  - 0.35
+  - 0.4
+  - 0.45
+  - 1
+  EffectClips:
+  - {fileID: 8300000, guid: 41367fe5815484e49acdbdfcf045b693, type: 3}

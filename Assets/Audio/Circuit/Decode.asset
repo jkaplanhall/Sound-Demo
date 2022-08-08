@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998d313030638ac4eb09c7ce57dc3372, type: 3}
+  m_Name: Decode
+  m_EditorClassIdentifier: 
+  SoundCondition: {fileID: 8300000, guid: 5ec450244af138a40b49acaa373d7e74, type: 3}
+  EffectConditions:
+  - Fuzzy
+  - UnLowpass
+  EffectPercentConditions:
+  - 0.4
+  - 0.6
+  EffectAccuracyMargins:
+  - 0.03
+  - 0.03
